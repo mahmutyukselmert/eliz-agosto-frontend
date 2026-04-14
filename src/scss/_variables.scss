@@ -1,0 +1,52 @@
+$primary: #603815;
+$primary-hover: rgb(96, 56, 21);
+
+$secondary: #ba8e3a;
+$secondary-hover: rgb(186, 142, 58);
+
+$body-bg: #ffffff;
+$body-color: #111827;
+
+$body-bg-dark: #111827;
+$body-color-dark: #f9fafb;
+
+:root {
+  --primary: #{$primary};
+  --primary-hover: #{$primary-hover};
+  --secondary: #{$secondary};
+  --secondary-hover: #{$secondary-hover};
+  --font-primary: "Inter Variable', sans-serif";
+  --font-secondary: "Inter Variable', sans-serif";
+  --menu-font-family: "Inter Variable', sans-serif";
+  --font-inter: 'Inter Variable', sans-serif;
+  --font-rosmatika: "Rosmatika";
+  --custom-theme-color: #fff;
+}
+
+/* Theme colors */
+$custom-theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "white": #fff
+);
+
+// 1. Breakpoint Sıralaması (Küçükten Büyüğe)
+$grid-breakpoints: (
+  xs: 0,
+  sm: 36rem,     // 576px
+  md: 48rem,     // 768px
+  lg: 62rem,     // 992px
+  xl: 75rem,     // 1200px
+  xxl: 97.5rem,  // 1400px (Standart)
+  xxxl: 97.5rem   // 1920px (Senin hedef ekranın)
+);
+
+// 2. Container Genişlikleri
+$container-max-widths: (
+  sm: 33.75rem,
+  md: 45rem,
+  lg: 60rem,
+  xl: 71.25rem,
+  xxl: 97.5rem,
+  xxxl: 97.5rem 
+);

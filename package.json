@@ -1,0 +1,51 @@
+{
+  "name": "eliz-agosto",
+  "version": "1.0.0",
+  "description": "Eliz Yazılım için; Agosto'ya özel front-end. Geliştirme ve üretim süreçlerini optimize etmek için çeşitli araçlar ve betikler içerir.",
+  "scripts": {
+    "dev-scss": "sass --watch src/style.scss:dist/assets/css/main.css --load-path=src/scss --quiet-deps",
+    "dev-js": "esbuild src/main.js --bundle --format=esm --splitting --outdir=dist/assets/js --sourcemap --watch",
+    "dev-html": "node src/build.js --watch",
+    "dev-bsync": "browser-sync start --server dist --files 'dist/**/*'",
+    "dev": "npm-run-all --parallel dev-scss dev-js dev-html dev-bsync",
+    "build-html": "node src/build.js",
+    "build-js": "esbuild src/main.js --bundle --minify --format=esm --splitting --outdir=dist/assets/js",
+    "build-scss": "sass src/style.scss dist/assets/css/temp.css --load-path=src/scss --quiet-deps",
+    "build-purge": "postcss dist/assets/css/temp.css -o dist/assets/css/main.css --no-map",
+    "build-minify": "esbuild dist/assets/css/main.css --minify --allow-overwrite --outfile=dist/assets/css/main.css",
+    "postbuild-css": "node -e \"require('fs').rmSync('dist/assets/css/temp.css', { force: true })\"",
+    "build-css": "npm run build-scss && npm run build-purge && npm run build-minify && npm run postbuild-css",
+    "build": "npm run build-html && npm run build-js && npm run build-css",
+    "build-image": "node src/image.js"
+  },
+  "author": "Mahmut Yüksel MERT",
+  "main": "src/image.js",
+  "type": "module",
+  "license": "ISC",
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^7.0.2",
+    "@puppeteer/browsers": "^2.13.0",
+    "browser-sync": "^2.29.3",
+    "clean-css": "^5.3.3",
+    "cssnano": "^7.1.4",
+    "esbuild": "^0.25.12",
+    "imagemin-cli": "^8.0.0",
+    "npm-run-all": "^4.1.5",
+    "penthouse": "^2.3.3",
+    "postcss": "^8.5.8",
+    "postcss-cli": "^10.1.0",
+    "puppeteer": "^24.40.0"
+  },
+  "dependencies": {
+    "animejs": "^4.3.6",
+    "bootstrap": "5.3.8",
+    "bootstrap-icons": "^1.13.1",
+    "cwebp-bin": "^8.0.0",
+    "embla-carousel": "^8.6.0",
+    "embla-carousel-autoplay": "^8.6.0",
+    "imagemin": "^9.0.1",
+    "imagemin-webp": "^8.0.0",
+    "sass": "^1.99.0",
+    "scrollreveal": "^4.0.9"
+  }
+}

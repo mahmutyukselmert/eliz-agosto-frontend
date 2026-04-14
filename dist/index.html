@@ -1,0 +1,867 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AGOSTO</title>
+<link rel="stylesheet" href="/assets/css/main.css" />
+<meta name="description" content="AGOSTO" />
+<meta name="keywords" content="AGOSTO" />
+
+<link rel="icon" type="image/png" href="assets/favicon/png?v=20260402" sizes="96x96" />
+<link rel="icon" type="image/svg+xml" href="assets/favicon/favicon.svg?v=20260402" />
+<link rel="shortcut icon" href="assets/favicon/favicon.ico?v=20260402" />
+<link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png?v=20260402" />
+<meta name="apple-mobile-web-app-title" content="AGOSTO" />
+<link rel="manifest" href="assets/favicon/site.webmanifest?v=20260402" />
+
+</head>
+
+<body>
+    <header class="header-main w-100 position-absolute z-3">
+    <div class="header-top w-100 position-relative">
+        <div class="container d-flex justify-content-end align-items-center">
+            <a href="#en" class="language-btn">EN</a>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-lg custom-navbar w-100">
+        <div class="container">
+            <button class="navbar-toggler custom-toggler collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#mainMenu" aria-label="Mobil Menüyü Aç/Kapat" onclick="window.scrollTo({ top: 0, behavior: 'smooth' });">
+                <i class="icon-close-large menu-close-icon"></i>
+                <i class="icon-menu-hamburger menu-open-icon"></i>
+            </button>
+            <div class="collapse navbar-collapse w-100 justify-content-between" id="mainMenu">
+                <ul class="navbar-nav left-menu">
+                    <li class="nav-item"><a class="nav-link" href="./urunlerimiz.html">ÜRÜNLERİMİZ</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./tariflerimiz.html">TARİFLERİMİZ</a></li>
+                </ul>
+                <ul class="navbar-nav right-menu">
+                    <li class="nav-item"><a class="nav-link" href="./kurumsal-hakkimizda.html">HAKKIMIZDA</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./iletisim.html">İLETİŞİM</a></li>
+                </ul>
+            </div>
+            <a class="navbar-brand absolute-center scroll-reveal-top" href="./index.html" aria-label="Ana Sayfa - AGOSTO">
+                <img src="/assets/images/agusto-logo.webp" alt="Agosto Logo" class="">
+            </a>
+            <ul class="navbar-nav language-wrapper ms-lg-5">
+                <li class="nav-item">
+                    <a href="#" class="text-decoration-none nav-link">EN</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+    <main>
+        <section class="hero" id="homeHero">
+    <div id="carouselSlider" class="carousel slide carousel-fade" data-module="smart-slider">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-type="image" data-interval="5000">
+                <!-- İlk slayt yüksek öncelikli olduğu için fetchpriority="high" back-end sadece ilk slidea ekle -->
+                <img src="/assets/images/slider-1.webp" alt="" class="img-fluid" fetchpriority="high">
+                <div class="carousel-caption text-start">
+                    <div class="container p-0 mx-auto">
+                        <div class="col-lg-8 col-11 hero-heading mx-auto">
+                            <h1 class="hero-title animation-text">
+                                Lezzetin İmparatorluğu
+                            </h1>
+                            <h2 class="hero-subtitle">İtalyan Reçete. Yerli Üretim. Kusursuz Tat.</h2>
+                            <div class="hero-desc px-md-5 mx-md-5">
+                                <p>AGOSTO; bar, kafe ve restoran profesyonelleri için geliştirdiği ürünleriyle doğal
+                                    içerik, yüksek verim ve tekrar edilebilir lezzet sunar.</p>
+                            </div>
+                            <a href="#" class="btn btn-white rounded-pill w-max">AGUSTO ile Tanışın</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item" data-type="image" data-interval="5000">
+                <!-- İkinci slayt ve sonraki slide loading="lazy" olmalı -->
+                <img src="/assets/images/freepik_edit.webp" alt="" class="img-fluid" loading="lazy">
+                <div class="carousel-caption text-start">
+                    <div class="container p-0 mx-auto">
+                        <div class="col-lg-8 col-11 hero-heading mx-auto">
+                            <h1 class="hero-title">
+                                Lezzetin İmparatorluğu
+                            </h1>
+                            <h2 class="hero-subtitle">İtalyan Reçete. Yerli Üretim. Kusursuz Tat.</h2>
+                            <div class="hero-desc px-md-5 mx-md-5">
+                                <p>AGOSTO; bar, kafe ve restoran profesyonelleri için geliştirdiği ürünleriyle doğal
+                                    içerik, yüksek verim ve tekrar edilebilir lezzet sunar.</p>
+                            </div>
+                            <a href="#" class="btn btn-white rounded-pill w-max">AGUSTO ile Tanışın</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--
+            <div class="carousel-item" data-type="youtube" data-video-id="rxjzKo1iWow">
+                <div id="player-rxjzKo1iWow"></div> 
+            </div>
+            <div class="carousel-item" data-type="youtube" data-video-id="edvfqQ5Mmx0">
+                <div id="player-edvfqQ5Mmx0"></div> 
+            </div>
+            -->
+        </div>
+
+        <div class="carousel-controls">
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselSlider" data-bs-slide="prev" aria-label="Önceki slide">
+                <i class="bi bi-arrow-left"></i>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselSlider" data-bs-slide="next" aria-label="Sonraki slide">
+                 <i class="bi bi-arrow-right"></i>
+                <i class="bi bi-arrow-right"></i>
+            </button>
+        </div>
+
+        <div class="position-relative">
+            <div class="container-fluid">
+                <div class="row justify-content-center justify-content-md-end">
+                    <div class="col-auto">
+                        <address class="mb-0">
+                            <div class="social-icons d-flex gap-3">
+                                <a href="#" aria-label="LinkedIn"><i class="icon-linkedin"></i></a>
+                                <a href="#" aria-label="Instagram"><i class="icon-instagram"></i></a>
+                                <a href="#" aria-label="Facebook"><i class="icon-facebook"></i></a>
+                                <a href="#" aria-label="Twitter"><i class="icon-logo-x"></i></a>
+                                <a href="#" aria-label="YouTube"><i class="icon-youtube"></i></a>
+                            </div>
+                        </address>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+        <section class="about-section py-5">
+            <div class="container">
+                <div class="row align-items-center justify-content-center scroll-reveal">
+                    <div class="col-lg-10 py-5">
+                        <h3 class="text-center font-rosmatika animation-text">AGOSTO</h3>
+                        <h4 class="text-center">Profesyonellerin Ortak Lezzeti.</h4>
+                        <div>
+                            <p>AGOSTO, geleneksel İtalyan lezzet anlayışını yerli üretim gücüyle birleştirerek bar, kafe ve restoranlara güvenilir, sürdürülebilir ve profesyonel çözümler sunar. İtalyan reçetelerinden ilham alan ürünleri; doğal hammaddelerle, uluslararası kalite standartlarına uygun olarak üretilir ve her serviste aynı tat dengesini garanti eder.</p>
+                        </div>
+                        <div class="text-center mt-5">
+                            <a href="#" class="btn btn-outline-primary rounded-pill px-4">Hakkımızda</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="product-groups-section">
+    <div class="background-image">
+        <img src="/assets/images/Rectangle1copy.webp" alt="">
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-11 col-md-10 col-11 mx-auto">
+                <div class="row">
+                    <div class="col-xxl-auto col-xl-3 col-lg-2 col-md-3 col-12 mb-4 mb-md-0">
+                        <div class="product-menu">
+                            <h4 class="product-menu-title">Ürün Grupları</h4>
+                            <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist"
+                                aria-orientation="vertical">
+                                <button class="nav-link" id="v-pills-suruplar-tab" data-bs-toggle="pill"
+                                    data-bs-target="#v-pills-suruplar" type="button" role="tab"
+                                    aria-controls="v-pills-suruplar" aria-selected="false">Şuruplar</button>
+
+                                <button class="nav-link" id="v-pills-pureler-tab" data-bs-toggle="pill"
+                                    data-bs-target="#v-pills-pureler" type="button" role="tab"
+                                    aria-controls="v-pills-pureler" aria-selected="false">Püreler</button>
+
+                                <button class="nav-link" id="v-pills-bazlar-tab" data-bs-toggle="pill"
+                                    data-bs-target="#v-pills-bazlar" type="button" role="tab"
+                                    aria-controls="v-pills-bazlar" aria-selected="false">Bazlar</button>
+
+                                <button class="nav-link active" id="v-pills-barsoslar-tab" data-bs-toggle="pill"
+                                    data-bs-target="#v-pills-barsoslar" type="button" role="tab"
+                                    aria-controls="v-pills-barsoslar" aria-selected="true">Bar Soslar</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xxl-4 col-xl-9 col-lg-4 col-md-9 col-12">
+                        <div class="tab-content" id="v-pills-tabContent">
+
+                            <div class="tab-pane fade" id="v-pills-suruplar" role="tabpanel"
+                                aria-labelledby="v-pills-suruplar-tab" tabindex="0">
+                                <div class="content-box">
+                                    <h3>Şuruplar</h3>
+                                    <h4>Farklı Tatlar,<br>Yeni Deneyimler.</h4>
+                                    <p>Şuruplarımız hakkında detaylı açıklama metni buraya gelecek.</p>
+                                    <a href="#" class="btn btn-custom-outline">Ürünleri İncele</a>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane fade" id="v-pills-pureler" role="tabpanel"
+                                aria-labelledby="v-pills-pureler-tab" tabindex="0">
+                            </div>
+
+                            <div class="tab-pane fade" id="v-pills-bazlar" role="tabpanel"
+                                aria-labelledby="v-pills-bazlar-tab" tabindex="0">
+                            </div>
+
+                            <div class="tab-pane fade show active" id="v-pills-barsoslar" role="tabpanel"
+                                aria-labelledby="v-pills-barsoslar-tab" tabindex="0">
+                                <div class="content-box">
+                                    <h3>Bar Soslar</h3>
+                                    <h4>Lezzet Dengesi,<br>Kusursuz Dokunuş.</h4>
+                                    <p>AGOSTO Bar Sosları; kokteyl, sıcak ve soğuk içecek tariflerinde lezzet dengesi,
+                                        stabil
+                                        kıvam ve kontrollü aroma sunmak üzere profesyonel kullanım için
+                                        geliştirilmiştir.
+                                        Çikolatadan karamele, fıstıktan özel aromalara uzanan ürün gamı, barlarda hızlı
+                                        servis
+                                        imkânı sağlarken her bardakta aynı tat standardını garanti eder.</p>
+                                    <a href="#" class="btn btn-custom-outline text-decoration-none">Ürünleri İncele</a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+        <section class="services">
+    <div class="container">
+        <h2 class="section-title animation-text">İhtiyacınıza En Uygun Ürünü Birlikte Belirleyelim</h2>
+        <div class="content text-center">
+            <p>İşletmenize en uygun AGOSTO ürünlerine hızlı ve kolay şekilde ulaşın.</p>
+        </div>
+
+        <div class="row mt-md-5">
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <div class="card service-card">
+                    <div class="card-body">
+                        <img src="/assets/images/lemon-juice.webp" class="img-fluid" alt="">
+                        <a href="#detay" class="stretched-link">
+                            <h3 class="card-title">Kafem İçin Ürünler</h3>
+                            <p>Kahve, soğuk içecek ve özel tarifler için ideal lezzet çözümler</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <div class="card service-card">
+                    <div class="card-body">
+                        <img src="/assets/images/cocktail-2.webp" class="img-fluid" alt="">
+                        <a href="#detay" class="stretched-link">
+                            <h3 class="card-title">Barım İçin Ürünler</h3>
+                            <p>Kahve, soğuk içecek ve özel tarifler için ideal lezzet çözümler</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <div class="card service-card">
+                    <div class="card-body">
+                        <img src="/assets/images/detox.webp" class="img-fluid" alt="">
+                        <a href="#detay" class="stretched-link">
+                            <h3 class="card-title">Restoranım İçin Ürünler</h3>
+                            <p>Restoranlar için özel lezzetli ürünler ve servisler</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <div class="card service-card">
+                    <div class="card-body">
+                        <img src="/assets/images/cocktail.webp" class="img-fluid" alt="">
+                        <a href="#detay" class="stretched-link">
+                            <h3 class="card-title">Pastanem İçin Ürünler</h3>
+                            <p>Pastaneler için özel lezzetli ürünler ve servisler</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-md-5">
+            <div class="col-lg-10 mx-auto text-center">
+                <h3 class="font-rosmatika text-primary fs-4">Kararsız Kaldıysanız, Birlikte Belirleyelim</h3>
+                <div class="fs-18px fw-light">
+                    <p>İşletmenize en uygun AGOSTO ürünlerini uzmanlarımızla birlikte seçin.</p>
+                </div>
+                <a href="#detay" class="btn btn-primary rounded-pill px-5 py-3 mt-md-3">Size Uygun Ürünü Bulalım</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+        <section class="recipes-section">
+    <div class="container">
+        <h2 class="section-title animation-text">Tarifler</h2>
+        <div class="content text-center">
+            <p>Her biri özel, her biri imza tadında tarifler.</p>
+        </div>
+
+        <div class="row mt-md-5 reveal-3d">
+            <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 mb-4 mb-md-0">
+                <div class="card recipe-card h-100">
+                    <img src="/assets/images/1363.webp" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <a href="#detay" class="stretched-link">
+                            <h3 class="card-title">LATTE</h3>
+                            <p>AGOSTO kokteyl çözümleri; kokteyl, mocktail ve frozen tariflerde yüksek aroma, stabil kıvam ve kolay karışım avantajı sunar. Profesyonel barlar için geliştirilen formüller, her serviste aynı tat dengesini ve tekrar edilebilir sonuçları garanti eder.</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 mb-4 mb-md-0">
+                <div class="card recipe-card h-100">
+                    <img src="/assets/images/10185.webp" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <a href="#detay" class="stretched-link">
+                            <h3 class="card-title">MOCKTAIL</h3>
+                            <p>AGOSTO kokteyl çözümleri; kokteyl, mocktail ve frozen tariflerde yüksek aroma, stabil kıvam ve kolay karışım avantajı sunar. Profesyonel barlar için geliştirilen formüller, her serviste aynı tat dengesini ve tekrar edilebilir sonuçları garanti eder.</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 mb-4 mb-md-0">
+                <div class="card recipe-card h-100">
+                    <img src="/assets/images/19039-copy.webp" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <a href="#detay" class="stretched-link">
+                            <h3 class="card-title">KOKTELY</h3>
+                            <p>AGOSTO kokteyl çözümleri; kokteyl, mocktail ve frozen tariflerde yüksek aroma, stabil kıvam ve kolay karışım avantajı sunar. Profesyonel barlar için geliştirilen formüller, her serviste aynı tat dengesini ve tekrar edilebilir sonuçları garanti eder.</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 mb-4 mb-md-0">
+                <div class="card recipe-card h-100">
+                    <img src="/assets/images/32418.webp" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <a href="#detay" class="stretched-link">
+                            <h3 class="card-title">KAHVE</h3>
+                            <p>AGOSTO kokteyl çözümleri; kokteyl, mocktail ve frozen tariflerde yüksek aroma, stabil kıvam ve kolay karışım avantajı sunar. Profesyonel barlar için geliştirilen formüller, her serviste aynı tat dengesini ve tekrar edilebilir sonuçları garanti eder.</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+        <section class="why-about-section py-5">
+    <div class="container">
+        <div class="row align-items-center justify-content-center">
+            <div class="col-lg-10 py-5">
+                <h2 class="text-center font-rosmatika animation-text">Neden AGOSTO?</h2>
+                <h3 class="text-center"> Doğal içerik · Uluslararası standart · Profesyonel kullanım </h3>
+                <div class="content">
+                    <p>AGOSTO, İtalyan reçetelerinden ilham alan uzmanlığını yerli üretim gücü ile birleştirerek
+                        profesyonel mutfaklar için güvenilir lezzet çözümleri sunar.
+                        100’ü aşkın ürün çeşidi, doğal hammaddelerle üretilen formülleri ve uluslararası kalite
+                        sertifikaları sayesinde her serviste aynı tat standardını garanti eder.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="product-groups-section">
+    <div class="background-image">
+        <img src="/assets/images/Rectangle1copy.webp" alt="">
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-11 col-md-10 col-11 mx-auto">
+                <div class="row">
+                    <div class="col-xxl-auto col-xl-3 col-lg-2 col-md-3 col-12 mb-4 mb-md-0">
+                        <div class="product-menu">
+                            <h4 class="product-menu-title">AGOSTO</h4>
+                            <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist"
+                                aria-orientation="vertical">
+                                <button class="nav-link" id="v-pills-suruplar-tab1" data-bs-toggle="pill"
+                                    data-bs-target="#v-pills-suruplar1" type="button" role="tab"
+                                    aria-controls="v-pills-suruplar1" aria-selected="false">Sertifikalar</button>
+
+                                <button class="nav-link" id="v-pills-pureler-tab2" data-bs-toggle="pill"
+                                    data-bs-target="#v-pills-pureler2" type="button" role="tab"
+                                    aria-controls="v-pills-pureler2" aria-selected="false">Kurumsal Kimlik</button>
+
+                                <button class="nav-link" id="v-pills-bazlar-tab3" data-bs-toggle="pill"
+                                    data-bs-target="#v-pills-bazlar3" type="button" role="tab"
+                                    aria-controls="v-pills-bazlar3" aria-selected="false">Dijital Katalog</button>
+
+                                <button class="nav-link active" id="v-pills-barsoslar-tab4" data-bs-toggle="pill"
+                                    data-bs-target="#v-pills-barsoslar4" type="button" role="tab"
+                                    aria-controls="v-pills-barsoslar4" aria-selected="true">Marka Sunumu</button>
+
+                                <button class="nav-link" id="v-pills-barsoslar-tab5" data-bs-toggle="pill"
+                                    data-bs-target="#v-pills-barsoslar5" type="button" role="tab"
+                                    aria-controls="v-pills-barsoslar5" aria-selected="true">Siparis Formu</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xxl-4 col-xl-9 col-lg-4 col-md-9 col-12">
+                        <div class="tab-content" id="v-pills-tabContent">
+
+                            <div class="tab-pane fade" id="v-pills-suruplar1" role="tabpanel"
+                                aria-labelledby="v-pills-suruplar-tab1" tabindex="0">
+                                <div class="content-box">
+                                    <h3>Sertifikalar</h3>
+                                    <h4>Farklı Tatlar,<br>Yeni Deneyimler.</h4>
+                                    <p>Şuruplarımız hakkında detaylı açıklama metni buraya gelecek.</p>
+                                    <a href="#" class="btn btn-custom-outline">Sertifikaları İncele</a>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane fade" id="v-pills-pureler2" role="tabpanel"
+                                aria-labelledby="v-pills-pureler-tab2" tabindex="0">
+                            </div>
+
+                            <div class="tab-pane fade" id="v-pills-bazlar3" role="tabpanel"
+                                aria-labelledby="v-pills-bazlar-tab3" tabindex="0">
+                            </div>
+
+                            <div class="tab-pane fade show active" id="v-pills-barsoslar4" role="tabpanel"
+                                aria-labelledby="v-pills-barsoslar-tab4" tabindex="0">
+                                <div class="content-box">
+                                    <h3>Marka Sunumu</h3>
+                                    <h4>Lezzet Dengesi, Kusursuz Dokunuş.</h4>
+                                    <p>AGOSTO, kaliteyi yalnızca ürün içeriğinde değil, üretim süreçlerinde ve hizmet anlayışında da temel ilke olarak benimser. Uluslararası kalite standartlarına uygun üretim altyapısı, titiz kontrol mekanizmaları ve uzman kadrosu ile sektörde güvenilir bir marka konumundadır.</p>
+                                    <p>Bugün AGOSTO; bar, kafe ve restoran zincirleri tarafından tercih edilen, lezzette istikrarı ve profesyonel standardı temsil eden bir markadır. AGOSTO ile her tarif, her sunum ve her servis imza bir lezzet deneyimine dönüşür.</p>
+                                    <a href="#" class="btn btn-custom-outline text-decoration-none me-2">Kataloğumuzu İnceleyin</a>
+                                    <a href="#" class="btn btn-custom-outline text-decoration-none">Uzmanlarımıza Sorun</a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+        <section class="contact-form-section">
+    <div class="container">
+
+        <div class="row">
+            <div class="col-lg-8 col-md-11 mx-auto">
+                <div class="section-header text-center mt-5 mb-5">
+                    <h2 class="section-title animation-text">Bilgi ve Demo Randevu Formu</h2>
+                    <div class="section-desc mt-3">
+                        <p>AGOSTO ürünleri hakkında detaylı bilgi alın ya da işletmenize özel demo randevunuzu kolayca
+                            oluşturun.
+                            İhtiyacınıza göre aşağıdaki ilgili formu doldurmanız yeterlidir.</p>
+                    </div>
+                </div>
+
+                <ul class="nav nav-pills justify-content-center mb-5 pb-md-3" id="contactTabs" role="tablist">
+                    <li class="nav-item mx-3" role="presentation">
+                        <button class="nav-link active px-0 py-2 me-2" id="info-tab" data-bs-toggle="tab"
+                            data-bs-target="#info-pane" type="button" role="tab" aria-controls="info-pane"
+                            aria-selected="true">
+                            Ürün Bilgisi Almak İçin
+                        </button>
+                    </li>
+                    <li class="nav-item mx-3" role="presentation">
+                        <button class="nav-link px-0 py-2" id="demo-tab" data-bs-toggle="tab"
+                            data-bs-target="#demo-pane" type="button" role="tab" aria-controls="demo-pane"
+                            aria-selected="false">
+                            Demo Randevusu Talep Etmek İçin
+                        </button>
+                    </li>
+                </ul>
+
+                <div class="tab-content" id="contactTabsContent">
+
+                    <div class="tab-pane fade show active" id="info-pane" role="tabpanel" aria-labelledby="info-tab"
+                        tabindex="0">
+                        <div class="row text-center px-5 mb-4">
+                            <div class="col-lg-8 mx-auto col-10">
+                                <h3 class="fs-4 text-primary mb-2">Ürünler Hakkında Bilgi Almak İçin</h3>
+                                <p>Aşağıdaki formu doldurarak, ilgilendiğiniz ürün veya ürün grupları hakkında detaylı bilgi
+                                    ve danışmanlık talep edebilirsiniz.</p>
+                            </div>
+                        </div>
+                        <form class="custom-form p-4">
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control" id="infoAd" placeholder="Adınız"
+                                            required>
+                                        <label for="infoAd">Adınız</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control" id="infoSoyad" placeholder="Soyadınız"
+                                            required>
+                                        <label for="infoSoyad">Soyadınız</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input type="tel" class="form-control" id="infoTel" placeholder="Telefon"
+                                            required>
+                                        <label for="infoTel">Telefon Numaranız</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control" id="infoFirma" placeholder="Firma">
+                                        <label for="infoFirma">Firma İsminiz</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input type="email" class="form-control" id="infoEmail" placeholder="E-posta"
+                                            required>
+                                        <label for="infoEmail">E-posta Adresiniz</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control" id="infoAdres" placeholder="Adres">
+                                        <label for="infoAdres">Adres Bilgileriniz</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <textarea class="form-control" placeholder="Ürün Bilgisi" id="infoTextarea"
+                                            style="height: 120px" required></textarea>
+                                        <label for="infoTextarea">İlgilendiğiniz ürün veya ürün gruplarını
+                                            belirtiniz...</label>
+                                    </div>
+                                </div>
+                                <div class="col-12 text-center mt-4">
+                                    <button type="submit" class="btn btn-primary rounded-pill px-5 py-3">BİLGİ TALEP
+                                        ET</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="tab-pane fade" id="demo-pane" role="tabpanel" aria-labelledby="demo-tab" tabindex="0">
+                        <div class="row text-center px-5 mb-4">
+                            <div class="col-lg-8 mx-auto col-10">
+                                <h3 class="fs-4 text-primary mb-2">Demo Talep Etmek İçin</h3>
+                                <p>Ürünlerimizi yakından incelemek ve sistemlerimizin işleyişini görmek için ücretsiz demo
+                                randevusu oluşturabilirsiniz.</p>
+                            </div>
+                        </div>
+                        <form class="custom-form p-4">
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control" id="demoAd" placeholder="Adınız"
+                                            required>
+                                        <label for="demoAd">Adınız</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control" id="demoSoyad" placeholder="Soyadınız"
+                                            required>
+                                        <label for="demoSoyad">Soyadınız</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input type="tel" class="form-control" id="demoTel" placeholder="Telefon"
+                                            required>
+                                        <label for="demoTel">Telefon Numaranız</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control" id="demoFirma" placeholder="Firma"
+                                            required>
+                                        <label for="demoFirma">Firma İsminiz</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input type="email" class="form-control" id="demoEmail" placeholder="E-posta"
+                                            required>
+                                        <label for="demoEmail">E-posta Adresiniz</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input type="date" class="form-control" id="demoTarih" placeholder="Tarih"
+                                            required>
+                                        <label for="demoTarih">Tercih Ettiğiniz Demo Tarihi</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <textarea class="form-control" placeholder="Detaylar" id="demoTextarea"
+                                            style="height: 120px" required></textarea>
+                                        <label for="demoTextarea">Görmek istediğiniz özel bir özellik veya sistem var
+                                            mı?</label>
+                                    </div>
+                                </div>
+                                <div class="col-12 text-center mt-4">
+                                    <button type="submit" class="btn btn-primary rounded-pill px-5 py-3">RANDEVU
+                                        OLUŞTUR</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</section>
+
+        <!-- Referanlsar -->
+<section class="grid-card-section referances-box referances-section scroll-reveal py-md-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-9 mx-auto justify-content-center scroll-reveal-bottom">
+                <h2 class="section-title animation-text text-center fs-2 mb-3">
+                    Referanslar
+                </h2>
+                <div class="content text-center">
+                    <p>Lezzetimize güvenen markalar.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="position-relative scroll-reveal-top mb-5">
+        <div class="container-fluid">
+            <div class="embla references-carousel" id="referencesCarousel">
+                <div class="embla__viewport">
+                    <div class="embla__container">
+
+                        <div class="embla__slide">
+                            <a href="#" class="partner-card">
+                                <img src="/assets/images/referans-1.webp" class="img-fluid" alt="Referans 2">
+                            </a>
+                        </div>
+
+                        <div class="embla__slide">
+                            <a href="#" class="partner-card">
+                                <img src="/assets/images/referans-2.webp" class="img-fluid" alt="Referans 2">
+                            </a>
+                        </div>
+
+                        <div class="embla__slide">
+                            <a href="#" class="partner-card">
+                                <img src="/assets/images/referans-3.webp" class="img-fluid" alt="Referans 3">
+                            </a>
+                        </div>
+
+                        <div class="embla__slide">
+                            <a href="#" class="partner-card">
+                                <img src="/assets/images/referans-4.webp" class="img-fluid" alt="Referans 4">
+                            </a>
+                        </div>
+
+                        <div class="embla__slide">
+                            <a href="#" class="partner-card">
+                                <img src="/assets/images/referans-5.webp" class="img-fluid" alt="Referans 4">
+                            </a>
+                        </div>
+
+                        <div class="embla__slide">
+                            <a href="#" class="partner-card">
+                                <img src="/assets/images/referans-6.webp" class="img-fluid" alt="Referans 4">
+                            </a>
+                        </div>
+
+                        <div class="embla__slide">
+                            <a href="#" class="partner-card">
+                                <img src="/assets/images/referans-7.webp" class="img-fluid" alt="Referans 4">
+                            </a>
+                        </div>
+
+                        <div class="embla__slide">
+                            <a href="#" class="partner-card">
+                                <img src="/assets/images/referans-1.webp" class="img-fluid" alt="Referans 4">
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    </main>
+    <!-- Footer -->
+<footer id="footer">
+    <div class="footer-top">
+        <div class="container">
+            <div class="footer-links py-md-4">
+                <div class="footer-item item--wide">
+                    <div class="footer-logo mb-md-5">
+                        <a href="#" class="mb-4 mb-md-5" aria-label="Ana Sayfaya Dön">
+                            <img src="/assets/images/agosto-footer-logo.webp" alt="" width="200" height="200">
+                        </a>
+                    </div>
+
+                    <address class="footer-social">
+                        <div class="social-icons d-flex gap-3">
+                            <a href="#" aria-label="LinkedIn">
+                                <i class="icon-linkedin"></i>
+                            </a>
+                            <a href="#" aria-label="Instagram">
+                                <i class="icon-instagram"></i>
+                            </a>
+                            <a href="#" aria-label="Facebook">
+                                <i class="icon-facebook"></i>
+                            </a>
+                            <a href="#" aria-label="Twitter">
+                                <i class="icon-logo-x"></i>
+                            </a>
+                            <a href="#" aria-label="YouTube">
+                                <i class="icon-youtube"></i>
+                            </a>
+                        </div>
+                    </address>
+                </div>
+
+                <div class="footer-item">
+                    <h5 class="footer-title">Ürünlerimiz</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Şuruplar</a></li>
+                        <li><a href="#">Püreler</a></li>
+                        <li><a href="#">Bar Soslar</a></li>
+                        <li><a href="#">Bazlar</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-item">
+                    <h5 class="footer-title">Tariflerimiz</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Moktail</a></li>
+                        <li><a href="#">Latte</a></li>
+                        <li><a href="#">Çay</a></li>
+                        <li><a href="#">Kokteyl</a></li>
+                        <li><a href="#">Frozen</a></li>
+                        <li><a href="#">Tatlı</a></li>
+                        <li><a href="#">Kahve</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-item">
+                    <h5 class="footer-title">Kurumsal</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Misyon</a></li>
+                        <li><a href="#">Vizyonumuz</a></li>
+                        <li><a href="#">Sertifikalarımız</a></li>
+                        <li><a href="#">KVKK</a></li>
+                        <li><a href="#">Çerez Politikası</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-item">
+                    <h5 class="footer-title">İletişim</h5>
+                     <address class="contact-info">
+                        <p> M. Saray MAh. 74. Sok. No:17 <br> Kahramankazan/Ankara </p>
+                        <a href="tel:90-850-111-11-22">
+                            <i class="icon-phone"></i>
+                            <span>+90 850 111 11 22</span>
+                        </a>
+                        <a href="mailto:info@elizyazilim.com">
+                            <i class="icon-envelope"></i>
+                            <span>info@agosto.com</span>
+                        </a>
+                    </address>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-bottom pt-3 pb-3">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-4 text-start">
+                    <div class="copyright-text">
+                        <p>2026 AGOSTO – Tüm Hakları Saklıdır.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="privacy-links">
+                        <a href="#" class="text-decoration-none">Çerez Politikası</a>
+                        <span class="mx-2 text-gray-50">|</span>
+                        <a href="#" class="text-decoration-none">Kişisel Verilerin Korunması Kanunu</a>
+                    </div>
+                </div>
+                <div class="col-md-4 text-end">
+                    <a href="#" class="text-decoration-none fs-7">Eliz Yazılım A.Ş.</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script type="module" src="/assets/js/main.js" defer></script>
+
+<!-- Modal -->
+<div class="modal fade" id="videoModal" tabindex="-1" aria-hidden="true">
+    <button type="button" class="btn-modal-close" data-bs-dismiss="modal" aria-label="Close">
+        <i class="icon-close-large"></i>
+    </button>
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="ratio ratio-16x9">
+                    <iframe id="modalIframe" src="" title="YouTube video player" frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                            allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade image-zoom-modal" id="imageZoomModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content bg-dark">
+            <button type="button" class="btn-close btn-close-white zoom-close" data-bs-dismiss="modal"
+                aria-label="Close" style="position: absolute; right: 20px; top: 20px; z-index: 1060;">
+            </button>
+            <div class="modal-body p-0 d-flex align-items-center">
+                <div id="modalCarousel" class="carousel slide w-100" data-bs-ride="false">
+                    <div class="carousel-inner">
+                    </div>
+
+                    <button class="carousel-control-prev" type="button" data-bs-target="#modalCarousel"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#modalCarousel"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+
+</html>

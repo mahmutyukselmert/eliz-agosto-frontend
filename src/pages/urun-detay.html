@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- include:partials/head.html -->
+</head>
+
+<body class="sub-page">
+    <!-- include:partials/header.html -->
+    <main class="sub-page">
+
+        <section class="product-detail-section py-md-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xxl-11 col-xl-12 lg-12 col-md-12 col-10 mx-auto">
+                        <div class="row">
+
+                            <div class="col-xxl-6 col-lg-5 px-md-5">
+                                <div class="product-detail-gallery">
+
+                                    <div class="main-slider-wrapper position-relative mb-4">
+                                        <div class="embla slider-main" id="productCarouselMain">
+                                            <div class="embla__viewport">
+                                                <div class="embla__container">
+                                                    <div class="embla__slide">
+                                                        <a href="#" data-bs-toggle="modal" data-bs-target="#imageZoomModal"><img src="/assets/images/antep_fistigi_sos.webp" class="zoomable-image" alt=""></a>
+                                                    </div>
+                                                    <div class="embla__slide">
+                                                        <a href="#" data-bs-toggle="modal" data-bs-target="#imageZoomModal"><img src="/assets/images/sutlu-cikolata-sosu.webp" class="zoomable-image" alt=""></a>
+                                                    </div>
+                                                    <div class="embla__slide">
+                                                        <a href="#" data-bs-toggle="modal" data-bs-target="#imageZoomModal">
+                                                            <img src="/assets/images/naneli_cikolata_sos.webp" class="zoomable-image" alt="">
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div class="position-relative">
+                                                    <button type="button" class="btn-360-trigger" id="open-360-modal">
+                                                        <img src="/assets/images/360.webp" alt="">
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="embla-navs">
+                                            <button class="embla-nav-btn prev-btn">
+                                                <i class="bi bi-chevron-left"></i>
+                                            </button>
+                                            <button class="embla-nav-btn next-btn">
+                                                <i class="bi bi-chevron-right"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+
+                                    <div class="embla slider-thumbs" id="productCarouselThumbs">
+                                        <div class="embla__viewport">
+                                            <div class="embla__container">
+                                                <div class="embla__slide thumb-slide">
+                                                    <button class="thumb-btn" type="button">
+                                                        <img src="/assets/images/antep_fistigi_sos.webp" alt="">
+                                                    </button>
+                                                </div>
+                                                <div class="embla__slide thumb-slide">
+                                                    <button class="thumb-btn" type="button">
+                                                        <img src="/assets/images/sutlu-cikolata-sosu.webp" alt="">
+                                                    </button>
+                                                </div>
+                                                <div class="embla__slide thumb-slide">
+                                                    <button class="thumb-btn" type="button">
+                                                        <img src="/assets/images/naneli_cikolata_sos.webp" alt="">
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="col-xxl-6 col-lg-7">
+                                <div class="product-detail-content-heading">
+                                    <h1>Karamel Sos</h1>
+                                    <h2>Bar Soslar</h2>
+                                </div>
+                                <div class="content">
+                                    <p>Profesyonel mutfakların tercihi Karamel Bar Sos, yoğun karamel aroması ve akışkan dokusuyla öne çıkar. Tatlılar ve içeceklerinizin üzerinde mükemmel bir uyum sağlayarak lezzeti zirveye taşır.</p>
+                                    <ul>
+                                        <li>Yoğun & Akışkan Aroma: Karamelin zengin tatlılığıyla eşsiz bir deneyim sunar.</li>
+                                        <li>Pratik Kullanım: Kolayca eriyen yapısı sayesinde hızlı ve zahmetsiz hazırlık sağlar.</li>
+                                        <li> Çok Yönlü Lezzet: Kahveden tatlılara kadar pek çok tarifinize sıcak bir dokunuş katar.</li>
+                                        <li> Özel Anların Vazgeçilmezi: Sunumlarınıza şıklık ve gurme bir tat kazandırır.
+                                    </ul>
+                                </div>
+
+                                <div class="product-details-tabs">
+                                    <ul class="nav nav-pills mb-4" id="pills-tab" role="tablist">
+                                        <li class="nav-item" role="presentation">
+                                            <button class="nav-link" id="pills-usage-tab" data-bs-toggle="pill" data-bs-target="#pills-usage" type="button" role="tab">Kullanım Talimatı</button>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                            <button class="nav-link" id="pills-tech-tab" data-bs-toggle="pill" data-bs-target="#pills-tech" type="button" role="tab">Teknik Özellikler</button>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                            <button class="nav-link active" id="pills-energy-tab" data-bs-toggle="pill" data-bs-target="#pills-energy" type="button" role="tab">Enerji ve Besin Öğeleri</button>
+                                        </li>
+                                    </ul>
+
+                                    <div class="tab-content" id="pills-tabContent">
+                                        <div class="tab-pane fade" id="pills-usage" role="tabpanel">
+                                            <div class="nutrition-card">
+                                                <p>Burası örnek açıklama bölümüdür.</p>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade" id="pills-tech" role="tabpanel">
+                                            <div class="nutrition-card">
+                                                <p>Burası örnek açıklama bölümüdür.</p>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade show active" id="pills-energy" role="tabpanel">
+                                            <div class="nutrition-card">
+                                                <table class="table table-borderless mb-0">
+                                                    <thead>
+                                                        <tr>
+                                                            <th>Enerji ve Besin Öğeleri / Energy and Nutrients</th>
+                                                            <th >100 gr</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>Enerji/Energy (kcal/100 gr - kj/100 gr)</td>
+                                                            <td >1231,80-294,69</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Toplam Yağ/Total Fat (gr)</td>
+                                                            <td class="text-end">0,05</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Doymuş Yağ/Saturated Fat (gr)</td>
+                                                            <td class="text-end">0,03</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Karbonhidrat/Carbohydrate (gr)</td>
+                                                            <td class="text-end">73,24</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Protein/Protein (gr)</td>
+                                                            <td class="text-end">0,32</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Şeker/Sugar (gr)</td>
+                                                            <td class="text-end">46,03</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Tuz/Salt (gr)</td>
+                                                            <td class="text-end">0,155</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <hr class="border border-secondary border-1">
+
+        <!-- include:partials/section.product-detail-recipes.html -->
+
+        <hr class="border border-secondary border-1">
+
+        <section class="homepage-projects-section recipes-section">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-auto mx-auto">
+                        <h2 class="section-title">Yanında İyi Gider</h2>
+                        <div class="content text-center">
+                            <p>Tariflerde kullanılan diğer ürünlere buradan ulasabilirsiniz.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-10 col-10 mx-auto">
+                        <div class="product-slider-wrapper" id="productCarouselEmbla">
+                            <div class="embla slider-view-3-xxl slider-view-4-lg">
+                                <div class="embla__viewport">
+                                    <div class="embla__container product-cards-container">
+
+                                        <div class="embla__slide col-xxl-3 col-xl-4 col-lg-4 col-md-6 col-12">
+                                            <div class="card recipe-card product-card">
+                                                <img src="assets/images/naneli_cikolata_sos.webp" class="card-img-top" alt="">
+                                                <div class="card-body">
+                                                    <a href="urun-detay.html" class="stretched-link">
+                                                        <h5 class="card-title">Acı Biberli Çikolata Sosu</h5>
+                                                        <span class="category-text">Bar Soslar</span>
+                                                        <span class="kg-text">2,5 kg</span>
+                                                    </a>
+                                                    <a href="#" class="detail-btn">
+                                                        <span>Ürün Detayı</span>
+                                                        <i class="bi bi-arrow-up-short"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="embla__slide col-xxl-3 col-xl-4 col-lg-4 col-md-6 col-12">
+                                            <div class="card recipe-card product-card">
+                                                <img src="assets/images/antep_fistigi_sos.webp" class="card-img-top" alt="">
+                                                <div class="card-body">
+                                                    <a href="urun-detay.html" class="stretched-link">
+                                                        <h5 class="card-title">Acı Biberli Çikolata Sosu</h5>
+                                                        <span class="category-text">Bar Soslar</span>
+                                                        <span class="kg-text">2,5 kg</span>
+                                                    </a>
+                                                    <a href="tarif-detay" class="detail-btn">
+                                                        <span>Ürün Detayı</span>
+                                                        <i class="bi bi-arrow-up-short"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="embla__slide col-xxl-3 col-xl-4 col-lg-4 col-md-6 col-12">
+                                            <div class="card recipe-card product-card">
+                                                <img src="assets/images/antep_fistigi_sos.webp" class="card-img-top" alt="">
+                                                <div class="card-body">
+                                                    <a href="urun-detay.html" class="stretched-link">
+                                                        <h5 class="card-title">Acı Biberli Çikolata Sosu</h5>
+                                                        <span class="category-text">Bar Soslar</span>
+                                                        <span class="kg-text">2,5 kg</span>
+                                                    </a>
+                                                    <a href="tarif-detay" class="detail-btn">
+                                                        <span>Ürün Detayı</span>
+                                                        <i class="bi bi-arrow-up-short"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="embla__slide col-xxl-3 col-xl-4 col-lg-4 col-md-6 col-12">
+                                            <div class="card recipe-card product-card">
+                                                <img src="assets/images/naneli_cikolata_sos.webp" class="card-img-top" alt="">
+                                                <div class="card-body">
+                                                    <a href="urun-detay.html" class="stretched-link">
+                                                        <h5 class="card-title">Acı Biberli Çikolata Sosu</h5>
+                                                        <span class="category-text">Bar Soslar</span>
+                                                        <span class="kg-text">2,5 kg</span>
+                                                    </a>
+                                                    <a href="tarif-detay" class="detail-btn">
+                                                        <span>Ürün Detayı</span>
+                                                        <i class="bi bi-arrow-up-short"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="embla__slide col-xxl-3 col-xl-4 col-lg-4 col-md-6 col-12">
+                                            <div class="card recipe-card product-card">
+                                                <img src="assets/images/antep_fistigi_sos.webp" class="card-img-top" alt="">
+                                                <div class="card-body">
+                                                    <a href="urun-detay.html" class="stretched-link">
+                                                        <h5 class="card-title">Acı Biberli Çikolata Sosu</h5>
+                                                        <span class="category-text">Bar Soslar</span>
+                                                        <span class="kg-text">2,5 kg</span>
+                                                    </a>
+                                                    <a href="tarif-detay" class="detail-btn">
+                                                        <span>Ürün Detayı</span>
+                                                        <i class="bi bi-arrow-up-short"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="embla__slide col-xxl-3 col-xl-4 col-lg-4 col-md-6 col-12">
+                                            <div class="card recipe-card product-card">
+                                                <img src="assets/images/antep_fistigi_sos.webp" class="card-img-top" alt="">
+                                                <div class="card-body">
+                                                    <a href="urun-detay.html" class="stretched-link">
+                                                        <h5 class="card-title">Acı Biberli Çikolata Sosu</h5>
+                                                        <span class="category-text">Bar Soslar</span>
+                                                        <span class="kg-text">2,5 kg</span>
+                                                    </a>
+                                                    <a href="tarif-detay" class="detail-btn">
+                                                        <span>Ürün Detayı</span>
+                                                        <i class="bi bi-arrow-up-short"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="embla-navs">
+                                <button class="embla-nav-btn prev-btn">
+                                    <i class="bi bi-chevron-left"></i>
+                                </button>
+                                <button class="embla-nav-btn next-btn">
+                                    <i class="bi bi-chevron-right"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr class="border border-secondary border-1">
+        <!-- include:partials/section.our-form.html -->
+
+    </main>
+
+    <div class="modal fade" id="modal360" tabindex="-1" aria-labelledby="modal360Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title" id="modal360Label">360° Ürün Görünümü</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body p-0">
+                    <div class="cloudimage-360"
+                        id="product-360-viewer"
+                        data-folder="https://scaleflex.cloudimg.io/v7/demo/suv-orange-car-360/"
+                        data-filename-x="orange-{index}.jpg"
+                        data-amount="36"
+                        data-magnifier="2">
+                    </div>
+                </div>
+                <div class="modal-footer pt-0 border-0 justify-content-center">
+                    <small class="text-white">
+                        <i class="bi bi-hand-index-thumb"></i> Döndürmek için sürükleyin
+                    </small>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- include:partials/footer.html -->
+
+    <script src="https://cdn.scaleflex.it/plugins/js-cloudimage-360-view/latest/js-cloudimage-360-view.min.js"></script>
+    <script type="module">
+        const modalElement = document.getElementById('modal360');
+        const openBtn = document.getElementById('open-360-modal');
+
+        // Bootstrap Modal Nesnesi
+        const bsModal = new bootstrap.Modal(modalElement);
+
+        if (openBtn) {
+            openBtn.addEventListener('click', (e) => {
+                e.preventDefault();
+                bsModal.show();
+            });
+        }
+
+        // Modal açıldığında tetiklenecek
+        modalElement.addEventListener('shown.bs.modal', () => {
+            if (window.CI360) {
+                console.log("Kütüphane tetikleniyor...");
+
+                // Önce varsa eski kalıntıları temizle (hafıza yönetimi için)
+                window.CI360.destroy();
+
+                // Modal animasyonu biter bitmez (zaman aşımı ile garantiye alalım)
+                setTimeout(() => {
+                    window.CI360.init();
+                    console.log("360 Görünüm Başlatıldı");
+                }, 100);
+            } else {
+                console.error("Hata: CI360 kütüphanesi yüklenmemiş!");
+            }
+        });
+
+        // Modal kapandığında kütüphaneyi durdur ki arka planda kaynak tüketmesin
+        modalElement.addEventListener('hidden.bs.modal', () => {
+            if (window.CI360) {
+                window.CI360.destroy();
+            }
+        });
+    </script>
+
+</body>
+
+</html>

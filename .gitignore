@@ -1,0 +1,25 @@
+# IDE klasörleri
+.idea/*
+.vscode/*
+
+# macOS sistem dosyaları
+.DS_Store
+**/.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Node.js klasörleri
+node_modules/
+**/node_modules/
+
+# NPM cache
+.npm
+
+public/assets/media/
+**/public/assets/media/
+
+.DS_Store
+**/.DS_Store

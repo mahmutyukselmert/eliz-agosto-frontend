@@ -1,0 +1,11 @@
+ignoredBuiltDependencies:
+  - '@parcel/watcher'
+  - esbuild
+  - gifsicle
+  - jpegtran-bin
+  - optipng-bin
+  - puppeteer
+  - scrollreveal
+
+onlyBuiltDependencies:
+  - cwebp-bin

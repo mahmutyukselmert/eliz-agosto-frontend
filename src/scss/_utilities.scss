@@ -1,0 +1,86 @@
+.row-10 {
+  --bs-columns: 12;
+}
+
+.row-10 > * {
+  flex: 0 0 auto;
+  width: 100%;
+}
+
+@media (min-width: 992px) {
+  .row-10 > * {
+    width: 83.333333%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.bi-1x {
+  font-size: 1.25rem;
+}
+.bi-2x {
+  font-size: 2rem;
+}
+.bi-3x {
+  font-size: 3rem;
+}
+
+.fs-14px {
+  font-size: 0.875rem;
+}
+.fs-18px,
+.fs-18px p {
+  font-size: 1.125rem;
+  @media (max-width: 1650px) {
+    font-size: 1rem;
+  }
+}
+.fs-21px,
+.fs-21px p {
+  font-size: 1.3125rem;
+  @media (max-width: 1650px) {
+    font-size: 1.125rem;
+  }
+}
+.fs-24px,
+.fs-24px p {
+  font-size: 1.5rem;
+  
+}
+.fs-30px,
+.fs-30px p {
+  font-size: 1.875rem;
+}
+
+.fw-extrabold {
+  font-weight: bold;
+}
+.w-max {
+  width: max-content;
+}
+
+.rounded-10 {
+  border-radius: 0.625rem !important;
+}
+.rounded-17 {
+  border-radius: 1.0625rem !important;
+}
+.rounded-20 {
+  border-radius: 1.25rem !important;
+}
+
+.end-minus-1 {
+  right: -1rem;
+}
+.end-minus-2 {
+  right: -2rem;
+}
+.end-minus-3 {
+  right: -3rem;
+}
+.end-minus-4 {
+  right: -4rem;
+}
+.text-dark {
+  color: #000 !important;
+}
